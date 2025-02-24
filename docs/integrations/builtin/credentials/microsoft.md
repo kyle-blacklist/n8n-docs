@@ -112,11 +112,17 @@ Outlook OAuth2 supports the credential accessing a user's primary email inbox or
 1. Turn on **Use Shared Inbox**.
 2. Enter the target user's UPN or ID as the **User Principal Name**.
 
+It is also possible to select which [service root or endpoint url](https://learn.microsoft.com/en-us/graph/deployments#microsoft-graph-and-graph-explorer-service-root-endpoints) that is used if you will be accessing Outlook in one of Microsft's national cloud tenants (eg, Microsoft GovCloud). To do so, select which cloud you will be connecting to from the Endpoint dropdown.
+
 #### SharePoint
 
 SharePoint OAuth2 requires information about your SharePoint **Subdomain**.
 
 To complete the credential, enter the **Subdomain** part of your SharePoint URL. For example, if your SharePoint URL is `https://tenant123.sharepoint.com`, the subdomain is `tenant123`.
+
+#### OneDrive
+
+OneDrive OAuth2 supports the ability to select which [service root or endpoint url](https://learn.microsoft.com/en-us/graph/deployments#microsoft-graph-and-graph-explorer-service-root-endpoints) that is used if you will be accessing Outlook in one of Microsft's national cloud tenants (eg, Microsoft GovCloud). To do so, select which cloud you will be connecting to from the Endpoint dropdown.
 
 ## Common issues
 
